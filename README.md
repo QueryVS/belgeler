@@ -20,14 +20,62 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
      - podman
    - Proxy
      - nginx
+   - IaC
+   - GitOPS
  - Linux System Engineering
    - Init Systems
+     - OpenRC
+     - Systemd
+     - SysVinit
    - Kernel Space
+     - Syscalls
+     - CPU Architecture
+     - Driver
+     - Firmware
+     - Module
    - User Space
      - netwoking
-     - 
+     - tools
+       - Developing
+       - System
+         - File
+         - Storage
+         - network
+     - troubleshooting
+       - Monitoring
+       - Log analysis
  - Linux System Management
+   - linux distributions
+     - Debian
+       - Ubuntu
+       - Devuan
+     - Redhat
+       - Fedora
+       - CentOS
+     - Gentoo
+     - Arch
+       - Artix
+   - Package Management
+     - rpm
+     - yum
+     - dnf
+     - apt
+     - apt-get
+     - aptitude
+     - pacman
+     - portage
+   - Networking
+     - wireless
+     - wired
+     - virtual network
+     - VPN
+     - Proxy
+     - Router
  - Devops Engineering
+   - CI/CD Services
+   - Repositories
+   - Git Repository Services
+   - IaC
  - Public cloud
    - AWS
    - HuaweiCloud
