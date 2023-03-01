@@ -71,6 +71,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
      - VPN
      - Proxy
      - Router
+     - DNS
  - Devops Engineering
    - CI/CD Services
    - Repositories
