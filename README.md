@@ -3,86 +3,86 @@
 Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı içeren repo'dur. 
 
 **Bulabileceğiniz başlıca konular şunlardır ;**
-
- - Infrastructure Engineering
-   - Orchestration
-     - Virtual Machine
-       - Virtlib
-       - VMWare
-       - VirtualBox
+ - [Distributed Systems](dagitik-sistemler.md)
+   - Infrastructure Engineering
+     - Orchestration
+       - Virtual Machine
+         - Virtlib
+         - VMWare
+         - VirtualBox
+       - Container
+         - Kubernetes
+         - Mesos
+         - Docker Swarm
      - Container
-       - Kubernetes
-       - Mesos
-       - Docker Swarm
-   - Container
-     - Docker
-     - containerd
-     - podman
-   - Proxy
-     - nginx
-   - IaC
-   - GitOPS
- - Linux System Engineering
-   - Init Systems
-     - OpenRC
-     - Systemd
-     - SysVinit
-   - Kernel Space
-     - Syscalls
-     - CPU Architecture
-     - Driver
-     - Firmware
-     - Module
-   - User Space
-     - netwoking
-     - tools
-       - Developing
-       - System
-         - File
-         - Storage
-         - network
-     - troubleshooting
-       - Monitoring
-       - Log analysis
- - Linux System Management
-   - linux distributions
-     - Debian
-       - Ubuntu
-       - Devuan
-     - Redhat
-       - Fedora
-       - CentOS
-     - Gentoo
-     - Arch
-       - Artix
-   - Package Management
-     - rpm
-     - yum
-     - dnf
-     - apt
-     - apt-get
-     - aptitude
-     - pacman
-     - portage
-   - Networking
-     - wireless
-     - wired
-     - virtual network
-     - VPN
+       - Docker
+       - containerd
+       - podman
      - Proxy
-     - Router
-     - DNS
- - Devops Engineering
-   - CI/CD Services
-   - Repositories
-   - Git Repository Services
-   - IaC
- - Public cloud
-   - AWS
-   - HuaweiCloud
-   - Azure
- - Private Cloud
-   - OpenStack
+       - nginx
+     - IaC
+     - GitOPS
+   - Linux System Engineering
+     - Init Systems
+       - OpenRC
+       - Systemd
+       - SysVinit
+     - Kernel Space
+       - Syscalls
+       - CPU Architecture
+       - Driver
+       - Firmware
+       - Module
+     - User Space
+       - netwoking
+       - tools
+         - Developing
+         - System
+           - File
+           - Storage
+           - network
+       - troubleshooting
+         - Monitoring
+         - Log analysis
+   - Linux System Management
+     - linux distributions
+       - Debian
+         - Ubuntu
+         - Devuan
+       - Redhat
+         - Fedora
+         - CentOS
+       - Gentoo
+       - Arch
+         - Artix
+     - Package Management
+       - rpm
+       - yum
+       - dnf
+       - apt
+       - apt-get
+       - aptitude
+       - pacman
+       - portage
+     - Networking
+       - wireless
+       - wired
+       - virtual network
+       - VPN
+       - Proxy
+       - Router
+       - DNS
+   - Devops Engineering
+     - CI/CD Services
+     - Repositories
+     - Git Repository Services
+     - IaC
+   - Public cloud
+     - AWS
+     - HuaweiCloud
+     - Azure
+   - Private Cloud
+     - OpenStack
  - Software Engineering
    - Building and Running Code
      - Languages
