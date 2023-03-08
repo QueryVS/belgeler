@@ -3,9 +3,9 @@
 Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı içeren repo'dur. 
 
 **Bulabileceğiniz başlıca konular şunlardır ;**
- - [Distributed Systems](dagitik-sistemler.md)
-   - Infrastructure Engineering
-     - Orchestration
+ - [Distributed Systems](distributed_systems/)
+   - [**Infrastructure Engineering**](distributed_systems/infrastructure_engineering)
+     - [Orchestration](distributed_systems/infrastructure_engineering/orchestration.md)
        - Virtual Machine
          - Virtlib
          - VMWare
@@ -14,31 +14,41 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - Kubernetes
          - Mesos
          - Docker Swarm
-     - Container
+     - [Container](distributed_systems/infrastructure_engineering/container.md)
        - Docker
        - containerd
        - podman
-     - Virtualization
+     - [Virtualization](distributed_systems/infrastructure_engineering/virtualization.md)
        - System VMs
        - Process VMs
        - Virtual Machine Language
-     - Proxy
+     - [Proxy](distributed_systems/infrastructure_engineering/proxy.md)
        - nginx
-     - IaC
-     - GitOPS
-     - software engineering for infrastructure
+     - [GitOPS](distributed_systems/infrastructure_engineering/gitops.md)
+       - IaC
+         - Terraform
+         - Ansible
+         - Chef
+         - Puppet
+       - CI/CD
+       - Merge Request
+     - [software engineering for infrastructure](distributed_systems/infrastructure_engineering/software_engineeringforinfra.md)
        - system tools
        - controller
        - Deployment Scripts
        - Monitoring service
-     - Benchmark
+       - Popular Language
+         - Python
+         - Golang
+         - C/C++
+     - [Benchmark](distributed_systems/infrastructure_engineering/benchmark.md)
        - Devops Engineer
        - System Engineer
-     - Standards
+     - [Standards](distributed_systems/infrastructure_engineering/standards.md)
        - Security
          - ISO 27001 and ISO 27002
          - OWASP Top 10
-     - Management of infrastructure
+     - [Management of infrastructure](distributed_systems/infrastructure_engineering/management.md)
        - Users permission
          - Developer level
            - Database permissions
@@ -60,7 +70,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - Permissions lists
          - Services list
          - Evolution of Infrastructure
-   - Linux System Engineering
+   - [**Linux System Engineering**](distributed_systems/linux_system_engineering)
      - Init Systems
        - OpenRC
        - Systemd
@@ -82,7 +92,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - troubleshooting
          - Monitoring
          - Log analysis
-   - Linux System Management
+   - **Linux System Management**
      - linux distributions
        - Debian
          - Ubuntu
@@ -110,7 +120,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - Proxy
        - Router
        - DNS
-   - Devops Engineering
+   - **Devops Engineering**
      - CI/CD Services
        - Jenkins
        - Tekton CI
@@ -142,7 +152,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
      - Azure
    - Private Cloud
      - OpenStack
- - Software Engineering
+ - **Software Engineering**
    - Fundamentals
      - Algorithm
        - Basic concepts
@@ -164,7 +174,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - make
        - ninja
        - GNU autotools
- - Database
+ - **Database**
    - Relational Database
      - PostgreSQL
      - Mysql
@@ -172,10 +182,13 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
    - Non-Relational Database
      - MongoDB
      - Elasticsearch
- - Message Broker
+ - **Message Broker**
    - Apache Kafka
    - RabbitMQ
- - Test Engineering
+ - **Security**
+   - Offensive (Red Team)
+   - Defensive (Blue Team)
+ - **Test Engineering**
    - Static tests
    - Dynamic tests
      - Functional Testing
