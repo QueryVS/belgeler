@@ -18,10 +18,48 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - Docker
        - containerd
        - podman
+     - Virtualization
+       - System VMs
+       - Process VMs
+       - Virtual Machine Language
      - Proxy
        - nginx
      - IaC
      - GitOPS
+     - software engineering for infrastructure
+       - system tools
+       - controller
+       - Deployment Scripts
+       - Monitoring service
+     - Benchmark
+       - Devops Engineer
+       - System Engineer
+     - Standards
+       - Security
+         - ISO 27001 and ISO 27002
+         - OWASP Top 10
+     - Management of infrastructure
+       - Users permission
+         - Developer level
+           - Database permissions
+           - Monitoring permissions
+           - Deployment Permissions
+           - Document Permissions
+         - System Manager level 
+           - Orchestration Management
+           - Physical Server Management
+           - Database Management
+           - Users Management
+           - VMs Management
+           - Document Permissions
+       - System checklists
+         - troubleshooting
+         - new change monitoring
+       - Documentation
+         - System design
+         - Permissions lists
+         - Services list
+         - Evolution of Infrastructure
    - Linux System Engineering
      - Init Systems
        - OpenRC
@@ -74,9 +112,30 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - DNS
    - Devops Engineering
      - CI/CD Services
-     - Repositories
+       - Jenkins
+       - Tekton CI
+     - Repository Services
+       - Nexus
+       - Jfrog Artifactory
      - Git Repository Services
-     - IaC
+       - Gitlab
+     - Project Management Services
+       - JIRA
+       - TaskCafe
+       - Trello
+     - Messaging Services
+       - Slack
+       - Zulip
+     - Monitoring Services
+       - Web Applications
+         - Kibana
+         - Grafana
+       - zabbix
+       - ELKStack
+         - kibana
+         - elasticsearch
+         - beats
+         - logstash
    - Public cloud
      - AWS
      - HuaweiCloud
@@ -84,6 +143,18 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
    - Private Cloud
      - OpenStack
  - Software Engineering
+   - Fundamentals
+     - Algorithm
+       - Basic concepts
+         - UML
+         - Pseudo code
+         - flow chart
+         - o notation
+     - Coding
+       - OOP
+       - clean code
+     - Design Patterns
+     - Software Architectural Patterns
    - Building and Running Code
      - Languages
        - Compilable Languages
@@ -93,6 +164,17 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - make
        - ninja
        - GNU autotools
+ - Database
+   - Relational Database
+     - PostgreSQL
+     - Mysql
+     - MariaDB
+   - Non-Relational Database
+     - MongoDB
+     - Elasticsearch
+ - Message Broker
+   - Apache Kafka
+   - RabbitMQ
  - Test Engineering
    - Static tests
    - Dynamic tests
