@@ -152,7 +152,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
      - Azure
    - Private Cloud
      - OpenStack
- - **Software Engineering**
+ - [**Software Engineering**](software_engineering)
    - Fundamentals
      - Algorithm
        - Basic concepts
@@ -188,9 +188,9 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
  - **Security**
    - Offensive (Red Team)
    - Defensive (Blue Team)
- - **Test Engineering**
-   - Static tests
-   - Dynamic tests
+ - [**Test Engineering**](test_engineering)
+   - [Static tests](test_engineering/static_tests.md)
+   - [Dynamic tests](test_engineering/dynamic_tests.md)
      - Functional Testing
        - Unit Testing
        - Integration testing
@@ -211,4 +211,3 @@ Bu dökümanda yazan bölümlerin tamamı Açık olarak dağıtılmasına ve oku
 
  - Ahmet Numan Coşkun
  - ChatGPT
-
