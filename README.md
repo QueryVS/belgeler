@@ -205,9 +205,10 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
 
 Bu döküman infrastructure engineering ile ilgili kapsamlı bir döküman olması amacı ile hazırlanıyor. Ayrıca kendi bilgimin üzerinden geçmem ve bunu açıklamam bana yararlı olabileceğinden hazırlamaya başladım. Bu dökümana herkez destek verebilir. Eğer Bilgisayar bilimi altında burada olmayan bir kategoriyi eklemek ve katkı sunmak istiyorsanız, yapabilirsiniz. Sadece değişiklik yaptıktan sonra pull request atın.
 
-Bu dökümanda yazan bölümlerin tamamı Açık olarak dağıtılmasına ve okunlasına izin verilmektedir. Yazıların kopyalanması kullanılması serbesttir sadece açık bir şekilde kaynak belirtilmelidir.
+Bu dökümanda yazan bölümlerin tamamı Açık olarak dağıtılmasına ve okunlasına izin verilmektedir. Yazıların kopyalanması kullanılması serbesttir sadece açık bir şekilde kaynak belirtilmelidir. 
 
 **Katkı sağlayanlar:**
 
  - Ahmet Numan Coşkun
  - ChatGPT
+
