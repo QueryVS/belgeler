@@ -149,8 +149,8 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - troubleshooting
          - Monitoring
          - Log analysis
-   - **Linux System Management**
-     - linux distributions
+   - [**Linux System Management**](distributed_systems/linux_system_management)
+     - [linux distributions](distributed_systems/linux_system_management/linux_distributions.md)
        - Debian
          - Ubuntu
          - Devuan
@@ -160,7 +160,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - Gentoo
        - Arch
          - Artix
-     - Package Management
+     - [Package Management](distributed_systems/linux_system_management/package_management.md)
        - rpm
        - yum
        - dnf
@@ -169,7 +169,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - aptitude
        - pacman
        - portage
-     - Networking
+     - [Networking](distributed_systems/linux_system_management/networking.md)
        - wireless
        - wired
        - virtual network
@@ -177,7 +177,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - Proxy
        - Router
        - DNS
-     - Management Usable Tools
+     - [Useful Tools for Management](distributed_systems/linux_system_management/useful_tools_for_management.md)
        - Terminal Multiplexer 
          - Screen
            - [screenrc](https://gitlab.com/-/snippets/2253508)
@@ -217,7 +217,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - beats
          - logstash
  - [**Software Engineering**](software_engineering)
-   - Fundamentals
+   - [Fundamentals](software_engineering/fundementals.md)
      - Algorithm
        - Basic concepts
          - UML
@@ -228,7 +228,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - OOP
        - clean code
        - Design Patterns
-   - Programing Languages
+   - [Programing Languages](software_engineering/programing_languages.md)
      - interpreted
        - Python
        - PHP
@@ -240,7 +240,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - C
        - C++
        - Java
-   - Building and Running Code
+   - [Building and Running Code](software_engineering/building_and_running_code.md)
      - Languages
        - Compilable Languages
        - Interpretable Languages
