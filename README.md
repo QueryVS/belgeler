@@ -177,13 +177,23 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - Proxy
        - Router
        - DNS
+     - Management Usable Tools
+       - Terminal Multiplexer 
+         - Screen
+           - [screenrc](https://gitlab.com/-/snippets/2253508)
+         - Tmux
+       - Editor
+         - vi
+         - vim
+         - nano
    - [**Devops Engineering**](distributed_systems/devops_engineering)
      - [GitOps](distributed_systems/devops_engineering/gitops.md)
        - Merge Requests
        - CI/CD
      - [CI/CD Services](distributed_systems/devops_engineering/cicd_services.md)
-       - Jenkins
+       - Jenkins (CI/CD) 
        - Tekton CI
+       - Argo CD
      - [Repository Services](distributed_systems/devops_engineering/repository_services.md)
        - Nexus
        - Jfrog Artifactory
