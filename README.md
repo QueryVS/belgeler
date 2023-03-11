@@ -30,8 +30,6 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - Ansible
          - Chef
          - Puppet
-       - CI/CD
-       - Merge Request
      - [software engineering for infrastructure](distributed_systems/infrastructure_engineering/software_engineeringforinfra.md)
        - system tools
        - controller
@@ -41,6 +39,8 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - Python
          - Golang
          - C/C++
+     - [System Desing](distributed_systems/infrastructure_engineering/system_design.md)
+       - Software Architectural Patterns
      - [Benchmark](distributed_systems/infrastructure_engineering/benchmark.md)
        - Devops Engineer
        - System Engineer
@@ -70,6 +70,53 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - Permissions lists
          - Services list
          - Evolution of Infrastructure
+     - [**Cloud**](distributed_systems/infrastructure_engineering/cloud.md)
+       - Public cloud
+         - AWS
+         - HuaweiCloud
+         - Azure
+       - Private Cloud
+         - OpenStack
+           - Compute
+             - compute
+             - containers
+           - Hardware Lifecycle
+             - ironic
+             - cyborg
+           - Storage
+             - swift
+             - cinder
+             - manila
+           - Networking
+             - neutron
+             - octavia
+             - designate
+           - Shared
+             - keystone
+             - placement
+             - glance
+             - barbican
+           - Orchestration
+             - heat
+             - senlin
+             - mistral
+             - zaqar
+             - blazar
+             - aodh
+           - Workload Provisioning
+             - magnum
+             - sahara
+             - trove
+           - Application Lifecycle
+             - masakari
+             - murano
+             - solum
+             - freezer
+           - API proxies
+             - EC2API
+           - Web Frontend
+             - horizon
+             - skyline
    - [**Linux System Engineering**](distributed_systems/linux_system_engineering)
      - Init Systems
        - OpenRC
@@ -82,7 +129,17 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - Firmware
        - Module
      - User Space
+       - Command Language
+         - Bash
+         - ash
+         - sh
+         - csh
+         - zsh
        - netwoking
+         - Wireless
+         - Wired
+         - Virtual Network
+         - Route
        - tools
          - Developing
          - System
@@ -120,23 +177,26 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - Proxy
        - Router
        - DNS
-   - **Devops Engineering**
-     - CI/CD Services
+   - [**Devops Engineering**](distributed_systems/devops_engineering)
+     - [GitOps](distributed_systems/devops_engineering/gitops.md)
+       - Merge Requests
+       - CI/CD
+     - [CI/CD Services](distributed_systems/devops_engineering/cicd_services.md)
        - Jenkins
        - Tekton CI
-     - Repository Services
+     - [Repository Services](distributed_systems/devops_engineering/repository_services.md)
        - Nexus
        - Jfrog Artifactory
-     - Git Repository Services
+     - [Git Repository Services](distributed_systems/devops_engineering/git_repository_services.md)
        - Gitlab
-     - Project Management Services
+     - [Project Management Services](distributed_systems/devops_engineering/project_management_services.md)
        - JIRA
        - TaskCafe
        - Trello
-     - Messaging Services
+     - [Messaging Services](distributed_systems/devops_engineering/messaging_services.md)
        - Slack
        - Zulip
-     - Monitoring Services
+     - [Monitoring Services](distributed_systems/devops_engineering/monitoring_services.md)
        - Web Applications
          - Kibana
          - Grafana
@@ -146,12 +206,6 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - elasticsearch
          - beats
          - logstash
-   - Public cloud
-     - AWS
-     - HuaweiCloud
-     - Azure
-   - Private Cloud
-     - OpenStack
  - [**Software Engineering**](software_engineering)
    - Fundamentals
      - Algorithm
@@ -159,12 +213,23 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - UML
          - Pseudo code
          - flow chart
-         - o notation
+         - O(büyük o) notation
      - Coding
        - OOP
        - clean code
-     - Design Patterns
-     - Software Architectural Patterns
+       - Design Patterns
+   - Programing Languages
+     - interpreted
+       - Python
+       - PHP
+       - Perl
+       - Ruby
+     - compiled
+       - Go
+       - Rust
+       - C
+       - C++
+       - Java
    - Building and Running Code
      - Languages
        - Compilable Languages
