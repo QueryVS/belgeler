@@ -249,7 +249,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - make
        - ninja
        - GNU autotools
- - **Database**
+ - [**Database**](database)
    - Relational Database
      - PostgreSQL
      - Mysql
@@ -257,10 +257,10 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
    - Non-Relational Database
      - MongoDB
      - Elasticsearch
- - **Message Broker**
+ - [**Message Broker**](message_broker)
    - Apache Kafka
    - RabbitMQ
- - **Security**
+ - [**Security**](security)
    - Offensive (Red Team)
    - Defensive (Blue Team)
  - [**Test Engineering**](test_engineering)
