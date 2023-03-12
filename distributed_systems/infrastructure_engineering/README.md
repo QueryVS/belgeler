@@ -23,58 +23,115 @@ Bu alanlar Infrastructure Engineering altında Infrastructure engineering`e yard
 ## İçerikler
 
 Bu içeriklerin bazıları diğer yazılarda örneğin DevOps veya Linux System Engineering/management altında olabilir. Burada daha genel bilgi o kısımlarda daha spesifik ve alan title'ı ile uygun bilgiler vereceğim. 
-- Orchestration
-     - Virtual Machine
-       - Virtlib
-       - VMWare
-       - VirtualBox
-     - Container
-       - Kubernetes
-       - Mesos
-       - Docker Swarm
-     - Container
-       - Docker
-       - containerd
-       - podman
-     - Virtualization
-       - System VMs
-       - Process VMs
-       - Virtual Machine Language
-     - Proxy
-       - nginx
-     - IaC
-     - GitOPS
-     - software engineering for infrastructure
-       - system tools
-       - controller
-       - Deployment Scripts
-       - Monitoring service
-     - Benchmark
-       - Devops Engineer
-       - System Engineer
-     - Standards
-       - Security
-         - ISO 27001 and ISO 27002
-         - OWASP Top 10
-     - Management of infrastructure
-       - Users permission
-         - Developer level
-           - Database permissions
-           - Monitoring permissions
-           - Deployment Permissions
-           - Document Permissions
-         - System Manager level 
-           - Orchestration Management
-           - Physical Server Management
-           - Database Management
-           - Users Management
-           - VMs Management
-           - Document Permissions
-       - System checklists
-         - troubleshooting
-         - new change monitoring
-       - Documentation
-         - System design
-         - Permissions lists
-         - Services list
-         - Evolution of Infrastructure
+ - [Orchestration](orchestration.md)
+   - Virtual Machine
+     - Virtlib
+     - VMWare
+     - VirtualBox
+   - Container
+     - Kubernetes
+     - Mesos
+     - Docker Swarm
+ - [Container](container.md)
+   - Docker
+   - containerd
+   - podman
+ - [Virtualization](virtualization.md)
+   - System VMs
+   - Process VMs
+   - Virtual Machine Language
+ - [Proxy](proxy.md)
+   - nginx
+ - [GitOPS](gitops.md)
+   - IaC
+     - Terraform
+     - Ansible
+     - Chef
+     - Puppet
+ - [software engineering for infrastructure](software_engineeringforinfra.md)
+   - system tools
+   - controller
+   - Deployment Scripts
+   - Monitoring service
+   - Popular Language
+     - Python
+     - Golang
+     - C/C++
+ - [System Desing](system_design.md)
+   - Software Architectural Patterns
+ - [Benchmark](benchmark.md)
+   - Devops Engineer
+   - System Engineer
+ - [Standards](standards.md)
+   - Security
+     - ISO 27001 and ISO 27002
+     - OWASP Top 10
+ - [Management of infrastructure](management.md)
+   - Users permission
+     - Developer level
+       - Database permissions
+       - Monitoring permissions
+       - Deployment Permissions
+       - Document Permissions
+     - System Manager level 
+       - Orchestration Management
+       - Physical Server Management
+       - Database Management
+       - Users Management
+       - VMs Management
+       - Document Permissions
+   - System checklists
+     - troubleshooting
+     - new change monitoring
+   - Documentation
+     - System design
+     - Permissions lists
+     - Services list
+     - Evolution of Infrastructure
+ - [**Cloud**](cloud.md)
+   - Public cloud
+     - AWS
+     - HuaweiCloud
+     - Azure
+   - Private Cloud
+     - OpenStack
+       - Compute
+         - compute
+         - containers
+       - Hardware Lifecycle
+         - ironic
+         - cyborg
+       - Storage
+         - swift
+         - cinder
+         - manila
+       - Networking
+         - neutron
+         - octavia
+         - designate
+       - Shared
+         - keystone
+         - placement
+         - glance
+         - barbican
+       - Orchestration
+         - heat
+         - senlin
+         - mistral
+         - zaqar
+         - blazar
+         - aodh
+       - Workload Provisioning
+         - magnum
+         - sahara
+         - trove
+       - Application Lifecycle
+         - masakari
+         - murano
+         - solum
+         - freezer
+       - API proxies
+         - EC2API
+       - Web Frontend
+         - horizon
+         - skyline
