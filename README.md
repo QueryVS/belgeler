@@ -282,8 +282,33 @@ Bu döküman infrastructure engineering ile ilgili kapsamlı bir döküman olmas
 
 Bu dökümanda yazan bölümlerin tamamı açık olarak dağıtılmasına ve okunmasına izin verilmektedir. Yazıların kopyalanması kullanılması serbesttir sadece açık bir şekilde kaynak belirtilmelidir. 
 
-**Katkı sağlayanlar:**
+Belgeler'de açıklanan ve Operating System ile ilgili olan bazı bilgiler çoğunlukla Linux Dağıtımlarını baz almaktadır. Ortak bilgiler zaten ortaktır.
 
- - Ahmet Numan Coşkun
+Belgeye farklı kategorilerde katkı sağlayabilirsiniz. Örneğin Web3 veya AI kategorisinde katkı sağlamak isterseniz bu kategori için bir dizin oluşturun ve markdown dosyalarınızı oraya yazın README.md'de yazan içerik bilgisine göre ben anamenüyü güncellerim mümkünse [README.md](README.md) dosyasında değişiklik yapmayın conflict olmaması bakımından şuan tamamlanmamış bir dosya olduğundan bu dosya sürekli güncellenmektedir.
+
+Belgeye katkı sağlarsanız. İsminiz ve katkı sağladığınız kategori Katkı sağlayanlar kısmına yazılır.
+
+Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. Herhangi bir kaynaktan kopyaladığınız içerikler kabul edilmez bu konu hakkında yeterli düzeyde bilginiz olduktan sonra chatgpt veya başka kaynaktaki bilginin anlaşılmayan yerlerini açıklayarak tekrar yazınız.
+
+## Nasıl Kullanılır (Okuyucular)
+
+Belgeler'in kategorisine göz gezdirdikten sonra gitmek istediğiniz alanın markdown'una kategorisi linkelenmiştir. Çift tıklayarak gidin.
+
+Belgeler kategorilerinde sıfırdan o kategori hakkında tüm bilgiler yoktur. Kategori hakkında genel ve bazı spesifik bilgiler ve terminolojisi ve ilgili kategorileri hakkında bilgiler vardır. Bir kategori birden fazla alanda yer alabilir sebebi o kategorinin sadece o alanla ilgili kısmının orda açıklanacak olmasıdır.
+
+## Nasıl kullanılır (Contributors)
+
+**Giriş kısmında biraz açıkladığım gibi;**
+
+Belgeye katkı sağlarsanız. İsminiz ve katkı sağladığınız kategori Katkı sağlayanlar kısmına yazılır.
+
+Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. Herhangi bir kaynaktan kopyaladığınız içerikler kabul edilmez bu konu hakkında yeterli düzeyde bilginiz olduktan sonra chatgpt veya başka kaynaktaki bilginin anlaşılmayan yerlerini açıklayarak tekrar yazınız.
+
+
+### Katkı sağlayanlar:
+
+ - Ahmet Numan Coşkun (Distributed Systems)
+
+### Kaynaklar
+
  - ChatGPT
-
