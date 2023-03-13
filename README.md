@@ -290,20 +290,21 @@ Belgeye katkı sağlarsanız. İsminiz ve katkı sağladığınız kategori Katk
 
 Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. Herhangi bir kaynaktan kopyaladığınız içerikler kabul edilmez bu konu hakkında yeterli düzeyde bilginiz olduktan sonra chatgpt veya başka kaynaktaki bilginin anlaşılmayan yerlerini açıklayarak tekrar yazınız.
 
-## Nasıl Kullanılır (Okuyucular)
+Son olarak belge Türkçe ama Yazılım mühendisliğinde terim olarak kullandığım kelimeleri İngilizce yazdım sebebi bu şekilde google'da aradığınızda İngilizce hali ile bulabileceğiniz şeyler olması, yani katkı sağlayanlar yerine contributors yazdıysam bu sebebtendir. 
+
+### Nasıl Kullanılır (Okuyucular)
 
 Belgeler'in kategorisine göz gezdirdikten sonra gitmek istediğiniz alanın markdown'una kategorisi linkelenmiştir. Çift tıklayarak gidin.
 
 Belgeler kategorilerinde sıfırdan o kategori hakkında tüm bilgiler yoktur. Kategori hakkında genel ve bazı spesifik bilgiler ve terminolojisi ve ilgili kategorileri hakkında bilgiler vardır. Bir kategori birden fazla alanda yer alabilir sebebi o kategorinin sadece o alanla ilgili kısmının orda açıklanacak olmasıdır.
 
-## Nasıl kullanılır (Contributors)
+### Nasıl kullanılır (Contributors)
 
 **Giriş kısmında biraz açıkladığım gibi;**
 
 Belgeye katkı sağlarsanız. İsminiz ve katkı sağladığınız kategori Katkı sağlayanlar kısmına yazılır.
 
 Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. Herhangi bir kaynaktan kopyaladığınız içerikler kabul edilmez bu konu hakkında yeterli düzeyde bilginiz olduktan sonra chatgpt veya başka kaynaktaki bilginin anlaşılmayan yerlerini açıklayarak tekrar yazınız.
-
 
 ### Katkı sağlayanlar:
 
