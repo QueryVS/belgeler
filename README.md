@@ -3,7 +3,7 @@
 Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı içeren repo'dur. 
 
 **Bulabileceğiniz başlıca konular şunlardır ;**
- - [Distributed Systems](distributed_systems/)
+ - [Distributed Systems](distributed_systems/README.md)
    - [**Infrastructure Engineering**](distributed_systems/infrastructure_engineering)
      - [Orchestration](distributed_systems/infrastructure_engineering/orchestration.md)
        - Virtual Machine
@@ -154,7 +154,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - troubleshooting
          - Monitoring
          - Log analysis
-   - [**Linux System Management**](distributed_systems/linux_system_management)
+   - [**Linux System Management**](distributed_systems/linux_system_management/README.md)
      - [linux distributions](distributed_systems/linux_system_management/linux_distributions.md)
        - Debian
          - Ubuntu
@@ -191,7 +191,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - vi
          - vim
          - nano
-   - [**Devops Engineering**](distributed_systems/devops_engineering)
+   - [**Devops Engineering**](distributed_systems/devops_engineering/README.md)
      - [GitOps](distributed_systems/devops_engineering/gitops.md)
        - Merge Requests
        - CI/CD
@@ -221,7 +221,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - elasticsearch
          - beats
          - logstash
- - [**Software Engineering**](software_engineering)
+ - [**Software Engineering**](software_engineering/README.md)
    - [Fundamentals](software_engineering/fundementals.md)
      - Algorithm
        - Basic concepts
@@ -254,7 +254,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
        - make
        - ninja
        - GNU autotools
- - [**Database**](database)
+ - [**Database**](database/README.md)
    - Relational Database
      - PostgreSQL
      - Mysql
@@ -262,13 +262,13 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
    - Non-Relational Database
      - MongoDB
      - Elasticsearch
- - [**Message Broker**](message_broker)
+ - [**Message Broker**](message_broker/README.md)
    - Apache Kafka
    - RabbitMQ
- - [**Security**](security)
+ - [**Security**](security/README.md)
    - Offensive (Red Team)
    - Defensive (Blue Team)
- - [**Test Engineering**](test_engineering)
+ - [**Test Engineering**](test_engineering/README.md)
    - [Static tests](test_engineering/static_tests.md)
    - [Dynamic tests](test_engineering/dynamic_tests.md)
      - Functional Testing
