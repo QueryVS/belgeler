@@ -118,24 +118,29 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
              - horizon
              - skyline
    - [**Linux System Engineering**](distributed_systems/linux_system_engineering)
-     - Init Systems
+     - [Linux From Scratch](distributed_systems/linux_system_engineering/linux_from_scratch.md)
+       - [LFS (Linux From Scratch)](https://www.linuxfromscratch.org/lfs/)
+       - [BLFS (Beyond Linux From Scratch)](https://www.linuxfromscratch.org/blfs/)
+       - [ALFS (Automated Linux From Scratch)](https://www.linuxfromscratch.org/alfs/)
+       - [CLFS (Cross-Compiled Linux From Scratch)](https://trac.clfs.org/wiki/read)
+     - [Init Systems](distributed_systems/linux_system_engineering/init_systems.md)
        - OpenRC
        - Systemd
        - SysVinit
-     - Kernel Space
+     - [Kernel Space](distributed_systems/linux_system_engineering/kernel_space.md)
        - Syscalls
        - CPU Architecture
        - Driver
        - Firmware
        - Module
-     - User Space
+     - [User Space](distributed_systems/linux_system_engineering/user_space.md)
        - Command Language
          - Bash
          - ash
          - sh
          - csh
          - zsh
-       - netwoking
+       - Netwoking
          - Wireless
          - Wired
          - Virtual Network
@@ -313,3 +318,4 @@ Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. He
 ### Kaynaklar
 
  - ChatGPT
+ - 
