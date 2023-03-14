@@ -311,6 +311,7 @@ Belgeye katkı sağlarsanız. İsminiz ve katkı sağladığınız kategori Katk
 
 Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. Herhangi bir kaynaktan kopyaladığınız içerikler kabul edilmez bu konu hakkında yeterli düzeyde bilginiz olduktan sonra chatgpt veya başka kaynaktaki bilginin anlaşılmayan yerlerini açıklayarak tekrar yazınız.
 
+
 ### Katkı sağlayanlar:
 
  - Ahmet Numan Coşkun (Distributed Systems)
