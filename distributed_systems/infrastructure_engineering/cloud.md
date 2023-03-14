@@ -1,13 +1,14 @@
 # Cloud Belgeler
 
 
+
 ## İçerik
 
-- Public cloud
+- **Public cloud**
   - AWS
   - HuaweiCloud
   - Azure
-- Private Cloud
+- **Private Cloud**
   - OpenStack
     - Compute
       - compute
@@ -52,7 +53,6 @@
 
   
 ## Public Cloud
-
 
 ## Private Cloud
 

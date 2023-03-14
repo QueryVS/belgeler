@@ -2,6 +2,14 @@
 
 Dağıtık sistemler, birden fazla fiziksel veya sanal makinede çalışan ve bir araya getirilmiş olan yazılımlardır. Bu sistemler, büyük veri setleri, çoklu kullanıcı veya sensörler gibi büyük ölçekli problemleri çözmek için tasarlanmışlardır. Dağıtık sistemler, paralel veya seri olarak işlem yapabildiğinden, işlem gücünü veya bellek kapasitesini artırmak için birden fazla makine kullanabilirler. Aynı zamanda dağıtık sistemler, yedekleme veya hata toleransı gibi özellikleri içerebilir. Bu sebepten ötürü, dağıtık sistemlerin birçok farklı uygulamaları vardır, örneğin bulut bilgi işlem, büyük veri analitik, sosyal ağlar, sensör ağları veya kontrol sistemleri gibi.
 
+
+## Alt Başlıklar
+
+ - [**Infrastructure Engineering**](infrastructure_engineering/README.md)
+ - [**Linux System Engineering**](linux_system_engineering/README.md)
+ - [**Linux System Management**](linux_system_management/README.md)
+ - [**Devops Engineering**](devops_engineering/README.md)
+
 ## Dağıtık sistemler terminolojisi
 
  - Node / Application point: Dağıtık sistemde yer alan her bir işlem yapabilen birimler.
@@ -50,4 +58,63 @@ Dağıtık sistemler, birden fazla fiziksel veya sanal makinede çalışan ve bi
  - **Ahmet Alp Balkan** (https://www.youtube.com/@ahmetb)
  - **Cloud Native Turkiye & Kubernetes** (https://www.youtube.com/@cloudnativetr)
  - **Open Source Cloud Computing Infrastructure (Openstack)** (https://www.openstack.org/software/project-navigator/openstack-components#openstack-services)
+
+## Distributed Systems Konuları
+
+Bu sayfa distributed systems ile ilgili terminoloji ve önemli başlıkları içeren bir bölümdür, daha spesifik konular için yukarıda Alt Başlıklar kısmındaki seçeneklere tıklayın. Aşağıya yazan başlıkları ve konuları daha çok Distributed Systems(3rd edition Maarten van Steen, Andrew S. Tanenbaum) kitabına göre hazırladım ve yazdım. Daha sonra erişebildiğim kaynaklara göre konular ve içeriği güncelleyeceğim.
+
+ - Introduction
+   - What is a distributed system?
+   - Design goals
+   - Types of distributed systems 
+ - Architectures
+   - Architectural styles
+   - Middleware organization 
+   - System architecture
+   - Example architectures 
+ - Processes
+   - Threads
+   - Virtualization
+   - Clients
+   - Servers
+   - Code migration
+ - Communication
+   - Foundations
+   - Remote procedure call 
+   - Message-oriented communication 
+   - Multicast communication
+ - Naming
+   - Names, identifiers, and addresses 
+   - Flat naming 
+   - Structured naming 
+   - Attribute-based naming
+ - Coordination
+   - Clock synchronization 
+   - Logical clocks 
+   - Mutual exclusion 
+   - Election algorith
+   - Location systems 
+   - Distributed event matching 
+   - Gossip-based coordination
+ - Consistency and replication
+   - Introduction
+   - Data-centric consistency models 
+   - Client-centric consistency models
+   - Replica management 
+   - Consistency protocols 
+   - Example: Caching and replication in the Web 
+ - Fault tolerance
+   - Introduction to fault tolerance
+   - Process resilience 
+   - Reliable client-server communication 
+   - Reliable group communication 
+   - Distributed commit
+   - Recovery 
+ - Security
+   - Introduction to security 
+   - Secure channels
+   - Access control
+   - Secure naming
+   - Security management 
+
 
