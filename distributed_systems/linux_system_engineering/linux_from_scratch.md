@@ -20,3 +20,4 @@ Genel olarak LFS dökümanlarının aşamaları;
   - [BLFS (Beyond Linux From Scratch)](https://www.linuxfromscratch.org/blfs/)
   - [ALFS (Automated Linux From Scratch)](https://www.linuxfromscratch.org/alfs/)
   - [CLFS (Cross-Compiled Linux From Scratch)](https://trac.clfs.org/wiki/read)
+

@@ -221,6 +221,14 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
          - elasticsearch
          - beats
          - logstash
+   - [**Site Reliability Engineering**](distributed_systems/site_reliability_engineer/README.md)
+     - [**Google SRE Book**](distributed_systems/site_reliability_engineer/google_sre_book.md)
+       - Preface
+       - Part I. Introductory Material
+       - Part II. Designing Systems
+       - Part III. Implementing Systems
+       - Part IV. Maintaining Systems
+       - Part V. Organization and Culture
  - [**Software Engineering**](software_engineering/README.md)
    - [Fundamentals](software_engineering/fundementals.md)
      - Algorithm
@@ -310,7 +318,6 @@ Belgeler kategorilerinde sıfırdan o kategori hakkında tüm bilgiler yoktur. K
 Belgeye katkı sağlarsanız. İsminiz ve katkı sağladığınız kategori Katkı sağlayanlar kısmına yazılır.
 
 Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. Herhangi bir kaynaktan kopyaladığınız içerikler kabul edilmez bu konu hakkında yeterli düzeyde bilginiz olduktan sonra chatgpt veya başka kaynaktaki bilginin anlaşılmayan yerlerini açıklayarak tekrar yazınız.
-
 
 ### Katkı sağlayanlar:
 

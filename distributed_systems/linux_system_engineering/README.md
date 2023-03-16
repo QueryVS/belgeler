@@ -4,7 +4,6 @@ Linux system engineering, Linux işletim sistemi üzerindeki sistemlerin planlam
 
 Linux sistem mühendisleri linux sistemlerinin, işletim sisteminin çalışma mantığını iyi bilmeli sistem parçalarına hakim olmalıdır. Bu sayede sistemde uygun şekilde değişiklik yapma,troubleshooting ve performans arttırma yapabilir. Sistemin kendisi ve üzerinde bulunan her servisin düzgün şekilde çalışabilmesini sağlamalıdır. Sistemi monitoring etme, log analizi, ve troubleshoot konusunda sisteme oldukça hakim olması gerekir.
 
-
 - [Linux From Scratch](linux_from_scratch.md)
   - [LFS (Linux From Scratch)](https://www.linuxfromscratch.org/lfs/)
   - [BLFS (Beyond Linux From Scratch)](https://www.linuxfromscratch.org/blfs/)
@@ -41,3 +40,14 @@ Linux sistem mühendisleri linux sistemlerinin, işletim sisteminin çalışma m
   - troubleshooting
     - Monitoring
     - Log analysis
+
+
+## Linux'a Giriş Linux dağıtımları nasıl çalışır?
+
+Linux dağıtımları parçalardan oluşur. Bu parçalar bir bütün halinde çalışarak işletim sistemi süreçlerinin yürümesini sağlar. Bilgisayarınızda güç tuşuna bastığınızdan işletim sisteminin açıldığı zamana kadar bu parçalar sıra ile başlatılır. Bu süreçlere hakim olmak ve linux sistemlerini parçalarını iyi bilmek hem linux kullanmayı zevkli bir hale getirir hemde linux sistemlerini istediğiniz gibi değiştirebilirsiniz. Bir sorun ile karşılaştığınızda sorunun nereden kaynaklandığını anlayabilir, araştırmanızı ona göre yapabilir veya çözüm yolunu kendiniz kafanızda kurup deneyebilirsiniz. Bir sorunun oluşmasına izin vermeden adımlarınızı ona göre atabilirsiniz.
+
+### Süreçler:
+
+ - Güç düğmesine basılır.
+ - BIOS, donanımı kontrol eder, UEFI ise efi bölümünü okur
+ - 

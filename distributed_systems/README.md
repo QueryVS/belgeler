@@ -9,6 +9,7 @@ Dağıtık sistemler, birden fazla fiziksel veya sanal makinede çalışan ve bi
  - [**Linux System Engineering**](linux_system_engineering/README.md)
  - [**Linux System Management**](linux_system_management/README.md)
  - [**Devops Engineering**](devops_engineering/README.md)
+ - [**Site Reliability Engineering**](site_reliability_engineer/README.md)
 
 ## Dağıtık sistemler terminolojisi
 
@@ -61,7 +62,7 @@ Dağıtık sistemler, birden fazla fiziksel veya sanal makinede çalışan ve bi
 
 ## Distributed Systems Konuları
 
-Bu sayfa distributed systems ile ilgili terminoloji ve önemli başlıkları içeren bir bölümdür, daha spesifik konular için yukarıda Alt Başlıklar kısmındaki seçeneklere tıklayın. Aşağıya yazan başlıkları ve konuları daha çok Distributed Systems(3rd edition Maarten van Steen, Andrew S. Tanenbaum) kitabına göre hazırladım ve yazdım. Daha sonra erişebildiğim kaynaklara göre konular ve içeriği güncelleyeceğim.
+Bu sayfa distributed systems ile ilgili terminoloji ve önemli başlıkları içeren bir bölümdür, daha spesifik konular için yukarıda Alt Başlıklar kısmındaki seçeneklere tıklayın. Aşağıya yazan başlıkları ve konuları daha çok **Distributed Systems(3rd edition Maarten van Steen, Andrew S. Tanenbaum)** kitabına göre hazırladım ve yazdım. Daha sonra erişebildiğim kaynaklara göre konular ve içeriği güncelleyeceğim.
 
  - Introduction
    - What is a distributed system?
