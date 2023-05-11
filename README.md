@@ -4,7 +4,68 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
 
 **Bulabileceğiniz başlıca konular şunlardır ;**
  - [Distributed Systems](distributed_systems/README.md)
-   - [**Infrastructure Engineering**](distributed_systems/infrastructure_engineering)
+   - [**System Design**](distributed_systems/system_design/README.md)
+     - [Terminology](distributed_systems/system_design/terminology)
+       - Distributed Systems Properties
+         - Scalability
+         - Availability
+         - Reliability
+         - Consistency
+         - Partition Tolerance
+         - Fault Tolerance
+         - Performance
+         - Latency
+         - Throughput
+         - Security
+         - Privacy
+         - Caching
+         - Auditing
+         - Load Balancing
+         - Data Partitioning
+         - Data Replication
+         - Message Queuing
+         - Request-Response Communication
+         - Publish-Subscribe Communication
+         - Leader Election
+     - [Theorems](distributed_systems/system_design/theorems.md)
+       - CAP theorem
+       - BASE theorem
+       - FLP theorem
+       - Brewer and Nash theorem
+       - Gilbert ve Lynch theorem
+       - Brewer theorem
+       - Gilbert and Lynch's PACELC theorem
+       - Brewer's CAP theorem
+       - FLP impossibility theorem
+       - Leslie Lamport's Byzantine fault tolerance theorem
+       - Eric Brewer's Gossip protocol theorem
+     - [Algorithms](distributed_systems/system_design/algorithms.md)
+       - Leader Election
+         - Bully
+         - Ring
+         - Paxos
+         - Raft
+         - Zab
+       - Load Balancing
+         - Round Robin
+         - Least Connection
+         - IP Hash
+         - Random
+         - Weighted Round Robin
+         - Weighted Least Connection
+       - Consensus
+         - Paxos
+         - Raft
+         - Zab
+       - Gossip
+       - MapReduce
+       - Byzantine Fault Tolerance
+         - PBFT
+         - Tendermint
+         - Algorand 
+         - Bitcoin Core
+     - [Best Problems](distributed_systems/system_design/best_problems.md)
+   - [**Infrastructure Engineering**](distributed_systems/infrastructure_engineering/README.md)
      - [Orchestration](distributed_systems/infrastructure_engineering/orchestration.md)
        - Virtual Machine
          - Virtlib
@@ -117,7 +178,7 @@ Bu repository alanım ile ilgili aldığım notlar ve çalışma notlarımı iç
            - Web Frontend
              - horizon
              - skyline
-   - [**Linux System Engineering**](distributed_systems/linux_system_engineering)
+   - [**Linux System Engineering**](distributed_systems/linux_system_engineering/README.md)
      - [Linux From Scratch](distributed_systems/linux_system_engineering/linux_from_scratch.md)
        - [LFS (Linux From Scratch)](https://www.linuxfromscratch.org/lfs/)
        - [BLFS (Beyond Linux From Scratch)](https://www.linuxfromscratch.org/blfs/)
@@ -325,5 +386,14 @@ Belgelerde kategori için yazılan açıklama ve yazılar açık olmalıdır. He
 
 ### Kaynaklar
 
- - ChatGPT
- - 
+Her kategorinin altında spesifik kaynaklar yazmakta buraya aklıma ilk gelen kaynakları yazdım.
+
+ - Engineering pages
+ - Scholar
+ - Medium
+ - Linux Documents 
+   - man pages
+   - info documents
+ - ChatGPT and other AI apps
+ - Google SRE book
+ - Ahmet Alp Balkan(youtube)
