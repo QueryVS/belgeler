@@ -1,13 +1,20 @@
-# Site Reliability Engineering Belgeler
+# Site Reliability Engineering
 
+SRE; güvenilirlik hedeflerini (SLO) yazılım mühendisliği yaklaşımıyla yöneten disiplindir.
 
+## Alt Başlıklar
 
-## İçerik 
+- [Google SRE Book Notları](google_sre_book.md)
 
-- [**Google SRE Book**](distributed_systems/site_reliability_engineer/google_sre_book.md)
-  - Preface
-  - Part I. Introductory Material
-  - Part II. Designing Systems
-  - Part III. Implementing Systems
-  - Part IV. Maintaining Systems
-  - Part V. Organization and Culture
+## Temel kavramlar
+
+- SLI / SLO / SLA
+- Error budget
+- Toil reduction
+- Incident management
+
+## SRE yaklaşımı
+
+- Ölçemediğini iyileştiremezsin
+- Operasyonel iş yükünü otomasyonla azalt
+- Güvenilirlik ve hız arasında error budget ile denge kur

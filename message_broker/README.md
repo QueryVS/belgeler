@@ -1,18 +1,32 @@
 # Message Brokers Belgeler
 
-Microservice'ler arası asenkron veri alışverişi sağlayarak High Availability'yi destekler, message broker servisleri asenkron iletişimi farklı algoritmalar ile yapabilir. Message Broker servislerine bir microservice veri yazar, diğer bir bu veriyi okur. Genelde message broker'a bir veri ekleyen servise Producer, veriyi okuyan ve çıkarak servise consumer denir.
+Message broker sistemleri servisler arası asenkron iletişim kurarak gevşek bağlı (loosely coupled) mimariyi destekler.
 
-### Mesage Broker'ların kullandığı protokoller:
+## Temel kavramlar
 
-|     Protokol	 | OSI Katmanı | 	Altında Yatan Protokoller  |
-|--------------:|------------:|-------------------------------|
-|          AMQP | 	Katman 5-7 | TCP, TLS/SSL                  |
-|          MQTT | 	Katman 5-7 | 	TCP, TLS/SSL               |
-|         STOMP | 	Katman 5-7 | 	TCP                        |
-|          CoAP | 	Katman 5-6 | 	UDP                        |
-|          XMPP | 	Katman 5-7 | 	TCP, TLS/SSL               |
-|         Kafka |  Katman 4   | 	TCP                        |
-| Redis Pub/Sub | 	Katman 5-7 | 	TCP                        |
-|  ZeroMQ (ZMQ) | 	Katman 4-7 | 	TCP, UDP, SCTP, TLS/SSL    |
-|           DDS | 	Katman 4-7 | 	UDP, TCP, DDS Security     |
+- **Producer:** Mesaj üreten servis
+- **Consumer:** Mesaj tüketen servis
+- **Topic/Queue:** Mesajın taşındığı kanal
+- **Consumer Group:** Paralel tüketim yapan mantıksal grup
 
+## Ne zaman kullanılır?
+
+- Senkron çağrının kırılgan olduğu akışlarda
+- Yoğun trafiği dengelemek için buffering gerektiğinde
+- Event-driven mimari ihtiyacında
+
+## Protokoller (Özet)
+
+| Protokol | Tipik katman | Taşıma |
+|---|---|---|
+| AMQP | Uygulama | TCP/TLS |
+| MQTT | Uygulama | TCP/TLS |
+| STOMP | Uygulama | TCP |
+| Kafka Protocol | Uygulama/Transport | TCP |
+
+## Operasyon checklist
+
+- [ ] Dead-letter queue stratejisi var
+- [ ] Retry/backoff politikası tanımlı
+- [ ] Idempotent consumer tasarımı yapıldı
+- [ ] Consumer lag alarmları tanımlandı
