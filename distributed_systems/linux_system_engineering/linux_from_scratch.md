@@ -15,7 +15,7 @@ Genel olarak LFS dökümanlarının aşamaları;
 
 ## İçerik
 
-- [Linux From Scratch](distributed_systems/linux_system_engineering/linux_from_scratch.md)
+- [Linux From Scratch](linux_from_scratch.md)
   - [LFS (Linux From Scratch)](https://www.linuxfromscratch.org/lfs/)
   - [BLFS (Beyond Linux From Scratch)](https://www.linuxfromscratch.org/blfs/)
   - [ALFS (Automated Linux From Scratch)](https://www.linuxfromscratch.org/alfs/)
